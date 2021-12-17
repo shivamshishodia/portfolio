@@ -1,9 +1,13 @@
 a {
-    text-decoration: none!important;
-    color: inherit!important;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
-// Fonts 
+a:hover {
+    color: #64ffda !important;
+}
+
+// Fonts
 .text-fira {
     font-family: "firacode", "Inter", "Roboto Mono", monospace !important;
 }
@@ -14,7 +18,7 @@ a {
 
 // Font weight {
 .font-thin {
-    font-weight: 300!important;
+    font-weight: 300 !important;
 }
 
 // Font color
