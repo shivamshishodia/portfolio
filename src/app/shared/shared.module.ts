@@ -5,8 +5,6 @@ import { FooterComponent } from './component/footer/footer.component';
 import { CommonUtilsModule } from '../utilities/material-utils.module';
 import { RouterModule } from '@angular/router';
 
-
-
 @NgModule({
   declarations: [
     HeaderComponent,
