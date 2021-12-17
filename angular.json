@@ -33,6 +33,7 @@
             "styles": [
               "src/styles.scss",
               "src/custom.scss",
+              "src/assets/fonts/font-file.scss",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
