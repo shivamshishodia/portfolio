@@ -8,11 +8,13 @@ import { RouterModule } from '@angular/router';
 // Component
 import { DefaultComponent } from './default.component';
 import { HomeComponent } from 'src/app/modules/home/home.component';
+import { AboutComponent } from 'src/app/modules/about/about.component';
 
 @NgModule({
   declarations: [
     DefaultComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
