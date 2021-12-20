@@ -19,7 +19,7 @@ const forceSSL = function () {
     next();
   }
 }
-app.use(forceSSL());
+// app.use(forceSSL());
 
 // Start the server
 // Usage: ng build > node .\server\server.js
