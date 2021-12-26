@@ -9,12 +9,14 @@ import { RouterModule } from '@angular/router';
 import { DefaultComponent } from './default.component';
 import { HomeComponent } from 'src/app/modules/home/home.component';
 import { AboutComponent } from 'src/app/modules/about/about.component';
+import { MaintenanceComponent } from 'src/app/modules/maintenance/maintenance.component';
 
 @NgModule({
   declarations: [
     DefaultComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    MaintenanceComponent
   ],
   imports: [
     CommonModule,
