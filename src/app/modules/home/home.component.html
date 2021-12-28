@@ -7,7 +7,7 @@
         <div fxLayout="row" fxLayoutAlign="start center">
             <div class="mat-body-1 color-sub-text py-2" fxFlex.gt-sm="0 0 calc(75%)">I am a <span class="color-highlight-text">software engineer</span> (by choice) who loves to solve bleeding-edge problems. I specialize in building and designing exceptional digital experiences. Currently, I am focused on building applications for demand and supply space at <a class="color-highlight-text" target="_blank" href="https:dell.com">Dell</a>. My area of focus includes developing Web3 technologies and designing real-time event-driven architectures.</div>
         </div>
-        <div class="mat-display-2 text-calibre color-sub-text py-2 m-0">
+        <div class="mat-display-2 py-2 m-0">
             <mat-chip-list class="skillset-chip" cdkDropList cdkDropListOrientation="horizontal"
                 (cdkDropListDropped)="drop($event)">
                 <mat-chip class="skillset-box" cdkDrag *ngFor="let skill of skills">
@@ -22,6 +22,10 @@
 <!-- Break tag -->
 <!-- <hr class="hr-custom" /> -->
 <!-- // Break tag -->
+
+<!-- Experience section -->
+<app-experience></app-experience>
+<!-- // Experience section -->
 
 <!-- About section -->
 <app-about></app-about>
