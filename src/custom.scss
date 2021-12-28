@@ -3,10 +3,6 @@ a {
     color: inherit !important;
 }
 
-a:hover {
-    color: #64ffda !important;
-}
-
 // Fonts
 .text-fira {
     font-family: "firacode", "Inter", "Roboto Mono", monospace !important;
@@ -22,17 +18,21 @@ a:hover {
 }
 
 // Font color
-.color-radium {
-    color: #64ffda !important;
+a:hover {
+    color: #8f4728 !important;
 }
 
-.color-grey {
-    color: #8892b0 !important;
+.color-highlight-text {
+    color: #8f4728 !important;
+}
+
+.color-sub-text {
+    color: #68513e !important;
 }
 
 // Extra
 .hr-custom {
     margin: auto;
-    color: #58fbda!important;
+    color: #68513e!important;
     width: 75%!important;
 }
