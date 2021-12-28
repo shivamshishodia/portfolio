@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
+
+export interface Skillset {
+  name: string;
+}
 
 @Component({
   selector: 'app-home',
@@ -7,9 +12,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  skills: Skillset[] = [
+    {name: 'Java'},
+    {name: 'TypeScript'},
+    {name: 'Python'},
+    {name: 'SQL'},
+    {name: 'Springboot'},
+    {name: 'Angular'},
+    {name: 'Flask'},
+    {name: 'RabbitMQ'},
+    {name: 'Kafka'},
+    {name: 'AWS'}
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  drop(event: CdkDragDrop<Skillset[]>) {
+    moveItemInArray(this.skills, event.previousIndex, event.currentIndex);
   }
 
 }
