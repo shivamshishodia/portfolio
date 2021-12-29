@@ -1,0 +1,19 @@
+<!-- Academics section -->
+<div class="p-3" fxLayout="column" fxLayoutAlign="space-around center">
+    <div class="text-center px-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%/2)">
+        <div class="mat-subheading-2 text-fira color-highlight-text py-2 m-0">02. Academics</div>
+        <div class="mat-display-2 text-calibre font-bold pt-2 m-0">Proven Track Record.</div>
+    </div>
+</div>
+<div class="px-3" fxLayout="row wrap" fxLayoutAlign="center center">
+    <div class="p-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%/3)" *ngFor="let academic of academics">
+        <mat-card class="experience-card">
+            <mat-card-title>{{academic.points}}</mat-card-title>
+            <mat-card-subtitle class="mb-0">{{academic.course}}</mat-card-subtitle>
+            <mat-card-content>
+                <p>{{academic.school}}</p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+<!-- // Academics section -->

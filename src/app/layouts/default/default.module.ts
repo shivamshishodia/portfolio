@@ -11,6 +11,7 @@ import { HomeComponent } from 'src/app/modules/home/home.component';
 import { AboutComponent } from 'src/app/modules/about/about.component';
 import { MaintenanceComponent } from 'src/app/modules/maintenance/maintenance.component';
 import { ExperienceComponent } from 'src/app/modules/experience/experience.component';
+import { AcademicsComponent } from 'src/app/modules/academics/academics.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienceComponent } from 'src/app/modules/experience/experience.compo
     HomeComponent,
     AboutComponent,
     MaintenanceComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    AcademicsComponent
   ],
   imports: [
     CommonModule,
