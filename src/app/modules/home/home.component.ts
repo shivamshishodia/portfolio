@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   skills: Skillset[] = [
     {name: 'Java'},
-    {name: 'TypeScript'},
+    {name: 'JavaScript'},
     {name: 'Python'},
     {name: 'SQL'},
     {name: 'Springboot'},
