@@ -39,6 +39,6 @@ This project is hosted on Github pages. `ng build --prod` will build binaries un
 
 ## To-do
 
-- [ ] SEO tags
-- [ ] Loading
-- [ ] Scrollbar
+- SEO tags
+- Loading
+- Scrollbar
