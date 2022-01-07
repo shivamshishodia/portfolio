@@ -33,6 +33,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Package Manager: npm 8.1.2
 - OS: win32 x64
 
+# Deployment
+
+This project is hosted on Github pages. `ng build --prod` will build binaries under dist\docs. A seperate push is required to distribution repository from dist\docs.
+
 ## To-do
+
 - [ ] SEO tags
 - [ ] Loading
