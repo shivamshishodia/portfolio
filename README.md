@@ -32,3 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Node: 16.13.1
 - Package Manager: npm 8.1.2
 - OS: win32 x64
+
+## To-do
+- [ ] SEO tags
+- [ ] Loading
