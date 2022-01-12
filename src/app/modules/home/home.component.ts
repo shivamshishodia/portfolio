@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
+import { environment } from '../../../../src/environments/environment';
 
 export interface Skillset {
   name: string;
@@ -11,6 +12,8 @@ export interface Skillset {
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+
+  maintenance: boolean = environment.maintenance;
 
   skills: Skillset[] = [
     {name: 'Java'},

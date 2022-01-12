@@ -26,10 +26,6 @@ export class DefaultComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // Detect if the site is under maintenance
-    if (this.maintenance) {
-      this.router.navigate(['/maintenance']);
-    }
     // Detect route change and scroll to top
     this.router.events.subscribe((evt) => {
       if (!(evt instanceof NavigationEnd)) {

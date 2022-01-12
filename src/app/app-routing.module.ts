@@ -7,9 +7,7 @@ import { MaintenanceComponent } from './modules/maintenance/maintenance.componen
 const routes: Routes = [{
   path: '', component: DefaultComponent,
   children: [
-    { path: '', component: HomeComponent },
-    { path: 'maintenance', component: MaintenanceComponent },
-    { path: '**', redirectTo: '' }
+    { path: '', component: HomeComponent }
   ]
 }];
 

@@ -1,36 +1,51 @@
-<!-- Punch line section -->
-<div class="p-3" fxLayout="row" fxLayoutAlign="center center">
-    <div class="px-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%)">
-        <div class="mat-subheading-2 text-fira color-highlight-text py-2 m-0">Hello, my name is</div>
-        <div class="mat-display-2 text-calibre font-bold py-3 m-0">Shivam Shishodia.</div>
-        <div class="mat-display-2 text-calibre color-sub-text font-bold py-2 m-0">I build things for the web.</div>
-        <div fxLayout="row" fxLayoutAlign="start center">
-            <div class="mat-body-1 color-sub-text py-2" fxFlex.gt-sm="0 0 calc(75%)">I am a <span class="color-highlight-text">software engineer</span> (by choice) who loves to solve bleeding-edge problems. I specialize in building and designing exceptional digital experiences. Currently, I am focused on building applications for demand and supply space at <a class="color-highlight-text" target="_blank" href="https:dell.com">Dell EMC</a>. My area of focus includes designing real-time event-driven architectures and cloud.</div>
-        </div>
-        <div class="mat-display-2 py-2 m-0">
-            <mat-chip-list class="skillset-chip" cdkDropList cdkDropListOrientation="horizontal"
-                (cdkDropListDropped)="drop($event)">
-                <mat-chip class="skillset-box" cdkDrag *ngFor="let skill of skills">
-                    {{skill.name}}
-                </mat-chip>
-            </mat-chip-list>
+<div *ngIf=!maintenance>
+
+    <!-- Punch line section -->
+    <div class="p-3" fxLayout="row" fxLayoutAlign="center center">
+        <div class="px-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%)">
+            <div class="mat-subheading-2 text-fira color-highlight-text py-2 m-0">Hello, my name is</div>
+            <div class="mat-display-2 text-calibre font-bold py-3 m-0">Shivam Shishodia.</div>
+            <div class="mat-display-2 text-calibre color-sub-text font-bold py-2 m-0">I build things for the web.</div>
+            <div fxLayout="row" fxLayoutAlign="start center">
+                <div class="mat-body-1 color-sub-text py-2" fxFlex.gt-sm="0 0 calc(75%)">I am a <span
+                        class="color-highlight-text">software engineer</span> (by choice) who loves to solve
+                    bleeding-edge problems. I specialize in building and designing exceptional digital experiences.
+                    Currently, I am focused on building applications for demand and supply space at <a
+                        class="color-highlight-text" target="_blank" href="https:dell.com">Dell EMC</a>. My area of
+                    focus includes designing real-time event-driven architectures and cloud.</div>
+            </div>
+            <div class="mat-display-2 py-2 m-0">
+                <mat-chip-list class="skillset-chip" cdkDropList cdkDropListOrientation="horizontal"
+                    (cdkDropListDropped)="drop($event)">
+                    <mat-chip class="skillset-box" cdkDrag *ngFor="let skill of skills">
+                        {{skill.name}}
+                    </mat-chip>
+                </mat-chip-list>
+            </div>
         </div>
     </div>
+    <!-- // Punch line section -->
+
+    <!-- Break tag -->
+    <!-- <hr class="hr-custom" /> -->
+    <!-- // Break tag -->
+
+    <!-- Experience section -->
+    <app-experience></app-experience>
+    <!-- // Experience section -->
+
+    <!-- Academics section -->
+    <app-academics></app-academics>
+    <!-- // Academics section -->
+
+    <!-- About section -->
+    <app-about></app-about>
+    <!-- // About section -->
+
 </div>
-<!-- // Punch line section -->
 
-<!-- Break tag -->
-<!-- <hr class="hr-custom" /> -->
-<!-- // Break tag -->
-
-<!-- Experience section -->
-<app-experience></app-experience>
-<!-- // Experience section -->
-
-<!-- Academics section -->
-<app-academics></app-academics>
-<!-- // Academics section -->
-
-<!-- About section -->
-<app-about></app-about>
-<!-- // About section -->
+<div *ngIf=maintenance>
+    <!-- About section -->
+    <app-maintenance></app-maintenance>
+    <!-- // About section -->
+</div>

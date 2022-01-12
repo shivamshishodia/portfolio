@@ -14,10 +14,6 @@ export class MaintenanceComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    // Detect if the site is not under maintenance
-    if (!this.maintenance) {
-      this.router.navigate(['/']);
-    }
   }
 
 }
