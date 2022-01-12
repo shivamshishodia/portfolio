@@ -9,6 +9,7 @@ const routes: Routes = [{
   children: [
     { path: '', component: HomeComponent },
     { path: 'maintenance', component: MaintenanceComponent },
+    { path: '**', redirectTo: '' }
   ]
 }];
 

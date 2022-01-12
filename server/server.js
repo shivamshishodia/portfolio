@@ -6,7 +6,7 @@ const path = require('path');
 
 // Assign port and point to the build folder (ng build)
 const PORT = process.env.PORT || 4200;
-var app_path = '../dist/portfolio';
+var app_path = '../dist/docs';
 
 // Use SSL (not in localhost)
 const forceSSL = function () {
