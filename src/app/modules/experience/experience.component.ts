@@ -17,21 +17,21 @@ export class ExperienceComponent implements OnInit {
 
   experiences: Experience[] = [
     {
-      position: "SDE 2",
+      position: "Software Engineer 2",
       company: "Dell",
-      experience: "Oct. 2019 - Present",
+      experience: "Oct. 2019 - Mar. 2022",
       organisation: "Demand Planning, MTRC",
       breif: "Developed real-time Spring boot-based microservices to process the high volume of sales records (5k/min). Improved robustness by handling points of failure. Increased data accuracy to 98 percent."
     },
     {
-      position: "SDE 1",
+      position: "Software Engineer 1",
       company: "Dell",
       experience: "July 2018 - Sept. 2019",
       organisation: "Demand Planning, MTRC",
       breif: "Developed MR core microservices reducing order process time by 60 percent. Led a two-member development team to migrate the PPCM monolith codebase from legacy servers to the cloud."
     },
     {
-      position: "SDE Intern",
+      position: "Software Engineer Intern",
       company: "Dell",
       experience: "Jan. 2018 - May 2018",
       organisation: "DCE Content Operation",
