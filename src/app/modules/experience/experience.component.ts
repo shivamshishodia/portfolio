@@ -28,7 +28,7 @@ export class ExperienceComponent implements OnInit {
       company: "Dell EMC",
       experience: "Oct. 2019 - Mar. 2022",
       organisation: "Demand Planning (MTRC)",
-      breif: "Developed MR core microservices reducing order process time by 60 per cent for Dell's strategic customers. MR is designed to process $10 million worth of large order quotes quarterly for the planning team."
+      breif: "Developed MR core microservices reducing order process time by 60 per cent for Dell's strategic customers. MR is designed to process $10 million worth of large order quotes quarterly."
     },
     {
       position: "Software Engineer 1",
