@@ -22,10 +22,9 @@ export class HomeComponent implements OnInit {
     {name: 'SQL'},
     {name: 'Springboot'},
     {name: 'Angular'},
-    {name: 'Flask'},
+    // {name: 'Flask'},
     {name: 'RabbitMQ'},
-    {name: 'Kafka'},
-    {name: 'AWS'}
+    {name: 'Kafka'}
   ];
 
   constructor() { }

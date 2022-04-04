@@ -1,20 +1,23 @@
 <!-- Experience section -->
-<div class="p-3" fxLayout="column" fxLayoutAlign="space-around center">
-    <div class="text-center px-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%/2)">
+<div class="px-3" fxLayout="column" fxLayoutAlign="space-around center" fxFlex.gt-sm="0 0 calc(75%)">
+    <!-- Header section -->
+    <div class="p-3" fxLayout="column" fxLayoutAlign="space-around center">
         <div class="mat-subheading-2 text-fira color-highlight-text py-2 m-0">01. Experience</div>
-        <div class="mat-display-2 text-calibre font-bold pt-2 m-0">Capable. Consistent.</div>
+        <div class="mat-display-2 text-calibre text-center font-bold pt-2 m-0">Capable. Consistent.</div>
     </div>
-</div>
-<div class="px-3" fxLayout="row wrap" fxLayoutAlign="center center">
-    <div class="p-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%/3)" *ngFor="let experience of experiences">
-        <mat-card class="experience-card">
-            <mat-card-title>{{experience.company}}, {{experience.position}}</mat-card-title>
-            <mat-card-subtitle>{{experience.experience}}</mat-card-subtitle>
-            <mat-card-content>
-                <p class="color-highlight-text mb-1">{{experience.organisation}}</p>
-                <p>{{experience.breif}}</p>
-            </mat-card-content>
-        </mat-card>
+    <!-- Data section -->
+    <div class="px-2" fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+        <div class="px-2 py-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(100%/3)" fxLayoutAlign="center" *ngFor="let experience of experiences">
+            <mat-card class="experience-card" >
+                <mat-card-title>{{experience.company}}</mat-card-title>
+                <mat-card-content class="color-highlight-text mt-2 mb-2">{{experience.position}}</mat-card-content>
+                <mat-card-subtitle class="mb-2">{{experience.experience}}</mat-card-subtitle>
+                <mat-card-content>
+                    <p class="mb-1">{{experience.organisation}}</p>
+                    <p>{{experience.breif}}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
     </div>
 </div>
 <!-- // Introduction section -->
