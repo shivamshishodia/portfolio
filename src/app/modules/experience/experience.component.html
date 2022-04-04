@@ -5,17 +5,15 @@
         <div class="mat-display-2 text-calibre font-bold pt-2 m-0">Capable. Consistent.</div>
     </div>
 </div>
-<div class="px-3" fxLayout="row wrap" fxLayoutAlign="center center">
-    <div class="p-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(75%/3)" *ngFor="let experience of experiences">
-        <mat-card class="experience-card">
-            <mat-card-title>{{experience.company}}</mat-card-title>
-            <mat-card-content class="mt-2 mb-2">{{experience.position}}</mat-card-content>
-            <mat-card-subtitle class="mb-2">{{experience.experience}}</mat-card-subtitle>
-            <mat-card-content>
-                <p class="color-highlight-text mb-1">{{experience.organisation}}</p>
-                <p>{{experience.breif}}</p>
-            </mat-card-content>
-        </mat-card>
-    </div>
+<div class="px-3 mx-3" fxLayout="row wrap" fxLayoutAlign="center center">
+    <mat-card fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(100%/4)" class="m-3 experience-card" *ngFor="let experience of experiences">
+        <mat-card-title>{{experience.company}}</mat-card-title>
+        <mat-card-content class="color-highlight-text mt-2 mb-2">{{experience.position}}</mat-card-content>
+        <mat-card-subtitle class="mb-2">{{experience.experience}}</mat-card-subtitle>
+        <mat-card-content>
+            <p class="mb-1">{{experience.organisation}}</p>
+            <p>{{experience.breif}}</p>
+        </mat-card-content>
+    </mat-card>
 </div>
 <!-- // Introduction section -->

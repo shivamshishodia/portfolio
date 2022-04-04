@@ -17,22 +17,29 @@ export class ExperienceComponent implements OnInit {
 
   experiences: Experience[] = [
     {
-      position: "Software Engineer 2",
-      company: "Dell",
-      experience: "Oct. 2019 - Mar. 2022",
-      organisation: "Demand Planning, MTRC",
+      position: "Senior Software Engineer",
+      company: "Dell EMC",
+      experience: "Apr. 2022 - Present",
+      organisation: "Demand Planning (MTRC)",
       breif: "Developed real-time Spring boot-based microservices to process the high volume of sales records (5k/min). Improved robustness by handling points of failure. Increased data accuracy to 98 percent."
     },
     {
+      position: "Software Engineer 2",
+      company: "Dell EMC",
+      experience: "Oct. 2019 - Mar. 2022",
+      organisation: "Demand Planning (MTRC)",
+      breif: "Developed MR core microservices reducing order process time by 60 per cent for Dell's strategic customers. MR is designed to process $10 million worth of large order quotes quarterly for the planning team."
+    },
+    {
       position: "Software Engineer 1",
-      company: "Dell",
+      company: "Dell EMC",
       experience: "July 2018 - Sept. 2019",
-      organisation: "Demand Planning, MTRC",
-      breif: "Developed MR core microservices reducing order process time by 60 percent. Led a two-member development team to migrate the PPCM monolith codebase from legacy servers to the cloud."
+      organisation: "Demand Planning (MTRC)",
+      breif: "Led a two-member development team to migrate the PPCM monolith codebase from legacy servers to cloud microservices. Enabled zero downtime and  made microservices 12-factor compliant."
     },
     {
       position: "Software Engineer Intern",
-      company: "Dell",
+      company: "Dell EMC",
       experience: "Jan. 2018 - May 2018",
       organisation: "DCE Content Operation",
       breif: "Designed and developed EOL Audit Automation capable of saving 5,992 man-hours per year. The codebase was deployed as a core application and saved 5,880 man-hours per year processing EOL requests."
