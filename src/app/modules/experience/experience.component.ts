@@ -41,7 +41,7 @@ export class ExperienceComponent implements OnInit {
       position: "Software Engineer Intern",
       company: "Dell",
       experience: "Jan. 2018 - May 2018",
-      organisation: "DCE Content Operation",
+      organisation: "DCE Content Operations",
       breif: "Designed and developed EOL Audit Automation capable of saving 5,992 man-hours per year. The codebase was deployed as a core application and saved 5,880 man-hours per year processing EOL requests."
     }
   ]

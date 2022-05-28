@@ -20,13 +20,13 @@ export class AcademicsComponent implements OnInit {
       school: "Manipal University Jaipur"
     },
     {
-      points: "9.8 CGPA",
-      course: "Computer Science with PCM",
+      points: "90.8 Percent",
+      course: "12th, Computer Science with PCM",
       school: "Navy Children School (Goa)"
     },
     {
-      points: "90.8 Percent",
-      course: "Computer Science with PCM",
+      points: "9.8 CGPA",
+      course: "10th, Computer Science with PCM",
       school: "Navy Children School (Goa)"
     }
   ]
