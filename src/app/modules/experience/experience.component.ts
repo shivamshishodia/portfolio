@@ -21,7 +21,7 @@ export class ExperienceComponent implements OnInit {
       company: "Dell",
       experience: "Apr. 2022 - Present",
       organisation: "Demand Planning (MTRC)",
-      breif: "Developed real-time Spring boot-based microservices to process the high volume of sales records (5k/min). Improved robustness by handling points of failure. Increased data accuracy to 98 percent."
+      breif: "Developed real-time Spring boot-based microservices to process the high volume of sales records (8k/hour). Improved robustness by handling points of failure. Increased data accuracy to 98 percent."
     },
     {
       position: "Software Engineer 2",
