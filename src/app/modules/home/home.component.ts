@@ -17,14 +17,12 @@ export class HomeComponent implements OnInit {
 
   skills: Skillset[] = [
     {name: 'Java'},
-    {name: 'JavaScript'},
     {name: 'Python'},
+    {name: 'JavaScript'},
     {name: 'SQL'},
     {name: 'Springboot'},
     {name: 'Angular'},
-    // {name: 'Flask'},
-    {name: 'RabbitMQ'},
-    {name: 'Kafka'}
+    {name: 'RabbitMQ'}
   ];
 
   constructor() { }
