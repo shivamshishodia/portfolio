@@ -8,7 +8,7 @@
     <!-- Data section -->
     <div class="px-2" fxLayout="row wrap" fxLayoutAlign="space-evenly center">
         <div class="px-2 py-3" fxFlex="0 0 100%" fxFlex.gt-sm="0 0 calc(100%/3)" fxLayoutAlign="center" *ngFor="let experience of experiences">
-            <mat-card class="experience-card" >
+            <mat-card class="experience-card mat-card-no-shadow">
                 <mat-card-title>{{experience.company}}</mat-card-title>
                 <mat-card-content class="color-highlight-text mt-2 mb-2">{{experience.position}}</mat-card-content>
                 <mat-card-subtitle class="mb-2">{{experience.experience}}</mat-card-subtitle>
