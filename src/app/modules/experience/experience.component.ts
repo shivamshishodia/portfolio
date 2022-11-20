@@ -56,7 +56,7 @@ export class ExperienceComponent implements OnInit {
       company: "ACM",
       experience: "Aug. 2016 - Aug. 2017",
       organisation: "Web Development Lead",
-      breif: "We lead over 250 university students, training them for competitive programming and industry-level best practices. I served as the office bearer for over 1 year and 2 months."
+      breif: "We led over 250 university students in Manipal, training them for competitive programming and industry-level best practices. I served as the office bearer for over 1 year and 2 months."
     }
   ]
 
