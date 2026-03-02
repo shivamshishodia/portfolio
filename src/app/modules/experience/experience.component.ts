@@ -17,11 +17,11 @@ export class ExperienceComponent implements OnInit {
 
   experiences: Experience[] = [
     {
-      position: "Software Developer 2",
+      position: "Senior Software Developer",
       company: "Oracle",
       experience: "Oct. 2022 - Present",
-      organisation: "Logging Analytics (OCI)",
-      breif: "Working on on-demand collectors for management agent; shipped to over 700+ customers. Agents are designed to enrich, preprocess, and cumulatively handle over 40 terabytes of data per day."
+      organisation: "OCI Logging",
+      breif: "Developed high-throughput Kafka framework handling 12k reqs/second. Added load-aware partitioning, batching (90% fewer Object/DB ops), idempotency, and DLQ-based resilient processing."
     },
     {
       position: "Senior Software Engineer",
